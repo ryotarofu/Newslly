@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/* base
+_________________________ */
+
+body{
+    color: #A6ADB4;
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: Helvetica, sans-serif;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+small{
+    display: block;
+    font-size: 12px;
+    color: #CBD0D3;
+    padding: 100px 0 42px;
+}
+
+h2{
+    color: #202124;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 60px;
+    border-bottom: 1px solid #EBEDED;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* layout
+__________________________ */
+/* header */
+.l-header{
+    margin: 30px 0 0;
+}
+
+/* footer */
+
+.l-footer{
+    background-color: #A6ADB4
+}
+
+/* nav */
+.l-nav-li{
+font-size: 12px;
+font-weight: bold;
+margin-left: 20px;
+}
+
+.l-nav-li a{
+    color: #A6ADB4;
+}
+
+.l-nav-li a:hover{
+    color: #202124;
+}
+
+/* layout */
+.l-inner{
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.l-col1{
+    width: 47.5%;
+}
+
+.l-col2{
+    width: 30%;
+}
+
+.l-flex{
+    display: flex;
+}
+.l-flex-wrap{
+    flex-wrap: wrap;
+}
+
+.l-justify-between{
+    justify-content: space-between;
+}
+
+.l-align-item{
+    align-items: center;
+}
+
+/* speace */
+
+.l-sp1{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.l-sp2{
+    padding: 60px 0;
+}
+
+/* text */
+
+.l-align-right{
+    text-align: right;
+}
+
+/* color */
+.l-bg-glay{
+    background-color: #F6F8F9;
+}
+
+.l-bg-fff{
+    background-color: #fff;
+}
+/* module
+___________________________*/
+/* card */
+
+.card{
+    margin-bottom:60px;
+}
+
+.card-title{
+color: #FA6980;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.card-subtitle{
+    color:#202124;
+font-size: 18px;
+font-weight: bold;
+}
+
+.card-text{
+font-size: 14px;
+margin: 10px 0 20px;
+}
+
+.card-time{
+font-size: 12px;
+font-style: italic;
+}
+
+.card-time > p{
+    margin-left: 10px;
+}
+
+.btn{
+    display: inline-block;
+    color: #fff;
+    background-color: #FA6980;
+    text-align: center;
+    padding: 12px 0;
+    width: 160px;
+}
